@@ -1,0 +1,42 @@
+C:\Users\mag65\Desktop\kadai>mkdir git_challenge
+
+C:\Users\mag65\Desktop\kadai>cd git_challenge
+
+C:\Users\mag65\Desktop\kadai\git_challenge>git init
+Initialized empty Git repository in C:/Users/mag65/Desktop/kadai/git_challenge/.git/
+
+C:\Users\mag65\Desktop\kadai\git_challenge>echo "Hello, world!" >hello_world.txt
+
+C:\Users\mag65\Desktop\kadai\git_challenge>git add hello_world.txt
+
+C:\Users\mag65\Desktop\kadai\git_challenge>git commit -m "1回目のコミット"
+[main (root-commit) 4b57899] 1回目のコミット
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+
+C:\Users\mag65\Desktop\kadai\git_challenge>echo "こんにちは、世界!" >> hello_world.txt
+
+C:\Users\mag65\Desktop\kadai\git_challenge>git add hello_world.txt
+
+C:\Users\mag65\Desktop\kadai\git_challenge>git commit -m "2回目のコミット"
+[main 5d494e1] 2回目のコミット
+ 1 file changed, 1 insertion(+)
+
+C:\Users\mag65\Desktop\kadai\git_challenge>git status
+On branch main
+nothing to commit, working tree clean
+
+C:\Users\mag65\Desktop\kadai\git_challenge>git log
+commit 5d494e1726c8d4e15bd0c898b1e542c079688306 (HEAD -> main)
+Author: Kurumigu <mag65qz@gmail.com>
+Date:   Mon Aug 4 20:39:05 2025 +0900
+
+    2回目のコミット
+
+commit 4b57899ca2068ae347fe4df48736ac1afddd20eb
+Author: Kurumigu <mag65qz@gmail.com>
+Date:   Mon Aug 4 20:35:35 2025 +0900
+
+    1回目のコミット
+
+C:\Users\mag65\Desktop\kadai\git_challenge>
